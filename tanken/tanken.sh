@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# crontab: 0,5,10,15,20,25,30,35,40,45,50,55 * * * * /home/pi/tanken.sh | tee -a /home/pi/tanken.log
+
 TZ=Europe/Berlin
 export TZ
 t=`date  +%Y%m%d:%H:%M`
