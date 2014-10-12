@@ -1,3 +1,4 @@
+#!/bin/sh
 TZ=Europe/Berlin
 export TZ
 t=`date  +%Y%m%d:%H:%M`
